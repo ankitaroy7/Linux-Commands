@@ -40,6 +40,6 @@ Note: hidden files start with .
 11. ls -latR 
 12. ls -latR /data/retail_db
 
-
-. cal (gives today's date)
+===========================
+1. cal (gives today's date)
 
