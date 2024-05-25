@@ -1,0 +1,45 @@
+Linux Command : cd
+===================
+1. pwd - present working directory
+2. whoami (gives the username)
+3. clear (to clear the screen) or ctrl+l
+4. cd (to change directory)
+5.linux follows a tree like structure
+	/ (top most directory)
+6. cd / (to change directory to root directory)
+7. pwd -> /
+8. ls -l (gives everything that is inside the directory)
+9. cd ~ (if I have to go to my home directory from anywhere; ~ represents home directory)
+10. cd .. (will take to the parent directory i.e., one directory back)
+11. cd - (to go the previous directory I was in)
+12. cd ../.. (to go two directories back)
+13. cd . (current directory)
+14. cd /data
+	ls -l
+
+Linux Command : ls
+===================
+It is for listing the files and directories
+
+1. cd /data
+	ls
+blue color - directories
+green color - executable files
+black color - normal files
+
+2. ls -l (for long listing and dictionary order)
+3. ls -lt (newest file will come first, t: time order)
+4. ls -ltr (oldest file first, r: reverse order)
+5. ls -lr (reverse dictionary order as per ASCII value)
+6. ls -R
+7. ls -lR (recursively print all the directories and files)
+8. ls -R /data/nyse_all
+9. ls -a (to list all files including the hidden files)
+Note: hidden files start with .
+10. ls -R -a or ls -Ra or ls -aR (all are same) (it will recursively print all files and folders including hidden ones)
+11. ls -latR 
+12. ls -latR /data/retail_db
+
+
+. cal (gives today's date)
+
