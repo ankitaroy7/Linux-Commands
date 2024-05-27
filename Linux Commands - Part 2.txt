@@ -1,0 +1,96 @@
+1. To create an empty file 'file1.txt'
+	touch file1.txt
+	
+2. To change permission (Note: read(r): 4, write(w): 2, execute(x): 1)
+	chmod 764 file1.txt 
+
+3. To see the content of the file
+	cat file1.txt
+	
+4. To create a diretory
+	mkdir dir1 or mkdir /home/itv******/dir1
+	ls -lt
+	
+5. To remove a directory
+	rmdir dir1 [Note: this command can only delete a directory only if the directory is empty]
+		
+6. To remove a file
+	rm file1.txt
+	
+7. to remove a non empty directory
+	rm -R dir1
+
+=====
+cp command	
+======================
+1. cp file1.txt file2.txt
+2. cp file1.txt dir1
+	cd dir1
+	ls -lt
+3. cp dir1 dir2 [this command won't work in case of a directory] instead use, cp -R dir1 dir2
+
+=========
+mv command
+=================
+It is used to move a file from one directory to another. Alternatively, it can be used to rename a file
+ mv file1.txt dir2
+ 
+ Rename:
+ touch file556
+ mv file556 file56
+ 
+ ========================================
+ touch command creates an empty file..
+ what if we want to create a file with some content
+ 
+ vi command is used
+ 
+ vi file2.txt -> press i for insert mode -> Type your content -> press esc -> :wq [w-save & q-quit]
+ 
+ ==================
+  cd ~
+ cd /data/retail_db/orders
+ ls
+ part-00000 [this is file in orders directory]
+ head part-00000
+ tail part-00000
+ head -5 part-00000
+ tail -20 part-00000
+ =======================
+ 
+ cd ~
+ cat /data/retail_db/order_items/* 
+ (this will display the content of all the files in the order_items directory)
+ ======================
+ 1. history (to check all the commands that you have executed)
+ 2. wc file1.txt
+ 
+ ============================
+ 
+ cat > orders.txt
+ {type content}
+ ctrl+d
+ 
+ cat > customers.txt
+ 
+ cat orders.txt customers.txt >> mergedfile.txt
+ 
+ cat mergedfile.txt
+ ==========================
+ 1. du command
+	du -h .
+	cd ~
+	du -h /data/retail_db
+	
+2. grep command
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
